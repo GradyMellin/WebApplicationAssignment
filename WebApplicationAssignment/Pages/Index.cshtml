@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h2>This is a classic video from the early YouTube days called Shoes, enjoy!</h2>
+
+    <button onclick="openMovie()" class="popUpButton" id="popUp"> Click To Watch </button>
+    <div id="Shoes">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3HjIljJd-o0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
